@@ -1,0 +1,67 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/type/index",
+        "pages/kaoshi/index",
+        "pages/me/index"
+    ],
+    "subPackages": [
+        {
+            "root": "pages/public",
+            "pages": [
+                "404",
+                "search"
+            ]
+        },
+        {
+            "root": "pages-type",
+            "pages": [
+                "indexes"
+            ]
+        },
+        {
+            "root": "pages-me",
+            "pages": [
+                "examLog",
+                "examSort"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "通用模板",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#00cc77",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "搜索",
+                "iconPath": "/static/images/tabbar/search_defaut.png",
+                "selectedIconPath": "/static/images/tabbar/search_select.png"
+            },
+            {
+                "pagePath": "pages/type/index",
+                "text": "分类",
+                "iconPath": "/static/images/tabbar/icon_sort_default.png",
+                "selectedIconPath": "/static/images/tabbar/icon_sort.png"
+            },
+            {
+                "pagePath": "pages/kaoshi/index",
+                "text": "考试",
+                "iconPath": "/static/images/tabbar/ks.png",
+                "selectedIconPath": "/static/images/tabbar/ks-selected.png"
+            },
+            {
+                "pagePath": "pages/me/index",
+                "text": "我的",
+                "iconPath": "/static/images/tabbar/user.png",
+                "selectedIconPath": "/static/images/tabbar/user-selected.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

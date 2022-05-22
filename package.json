@@ -1,0 +1,80 @@
+{
+    "id": "nb-wasterTool",
+    "displayName": "智能垃圾分类",
+    "dependencies": {
+        "uni-read-pages": "^1.0.5",
+        "uni-simple-router": "^2.0.1"
+    },
+    "uni_modules": {
+        "encrypt": [
+            "uniCloud-aliyun/cloudfunctions/examLog/index.js",
+            "uniCloud-aliyun/cloudfunctions/getBaiduToken/index.js",
+            "uniCloud-aliyun/cloudfunctions/getTestQuestion/index.js",
+            "uniCloud-aliyun/cloudfunctions/imgScan/index.js",
+            "uniCloud-aliyun/cloudfunctions/nx-user/index.js",
+            "nxTemp/mixin/login-mp-wx.js",
+            "nxTemp/yunRequest/index.js",
+            "nxTemp/utils/garbage-sort/garbage-categroy.js",
+            "nxTemp/utils/garbage-sort/garbage-sort-data.js"
+        ],
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "y",
+                    "app-nvue": "y"
+                },
+                "H5-mobile": {
+                    "Safari": "y",
+                    "Android Browser": "y",
+                    "微信浏览器(Android)": "y",
+                    "QQ浏览器(Android)": "y"
+                },
+                "H5-pc": {
+                    "Chrome": "y",
+                    "IE": "y",
+                    "Edge": "y",
+                    "Firefox": "y",
+                    "Safari": "y"
+                },
+                "小程序": {
+                    "微信": "y",
+                    "阿里": "y",
+                    "百度": "y",
+                    "字节跳动": "y",
+                    "QQ": "y"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                },
+                "Vue": {
+                    "vue2": "y",
+                    "vue3": "u"
+                }
+            }
+        },
+        "extends": {
+            "sn": "3Ie2P5Br9BhL+k6ajVKWZTAK3dfksBls5KiVY3/e1JPGQzarCY6xvTzuf2ffS83gi8jGLyXK9YxH8GxdngQ7ocEAbR4/vFKMiCESdtzQW22m7VPUe79aT7W4UEg7dyxu3fOpJxNjtLBKFvf+x7LBXgGiFl0WAylCMb0wrIV9kPZhPWlqqMrPGzzgWhblY9HfIdFajifSaaG/fZW6jYXPvswm3c3HEJ8tbYGCqatHtYEMWXHCPs1tiPWROUBPOOo8GIwk43yc+opYG+YXhS/X+LUIIrzAOqSgtyjyJOSjHNmGtSTukW6v0dBNGJjSehLa"
+        }
+    },
+    "name": "智能垃圾分类",
+    "version": "0.01",
+    "description": "大学生创新创业项目",
+    "keywords": [
+        "图片识别",
+        "垃圾分类",
+        "做题",
+        "垃圾",
+        "智能"
+    ],
+    "dcloudext": {
+        "category": [
+            "uniCloud",
+            "云端一体项目模板"
+        ]
+    }
+}

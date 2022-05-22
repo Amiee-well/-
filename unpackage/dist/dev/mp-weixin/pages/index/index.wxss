@@ -1,0 +1,32 @@
+.bg-darkGray.data-v-57280228 {
+  background-color: #f6f6f6;
+  color: #ffffff;
+}
+.cu-bar .search-form.data-v-57280228 {
+  height: 90rpx;
+  background-color: #ffffff;
+}
+.cu-bar .search-form input.data-v-57280228 {
+  height: 100rpx;
+}
+.cu-bar.data-v-57280228 {
+  padding-top: 40px;
+}
+.ai-view.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txt.data-v-57280228 {
+  font-size: 24rpx;
+  /*font-weight: bold;*/
+  color: #00cc77;
+  margin-top: 10rpx;
+}
+.ai-paizhao.data-v-57280228 {
+  width: 150rpx;
+  height: 150rpx;
+}
+

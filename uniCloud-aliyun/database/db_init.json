@@ -1,0 +1,61 @@
+{
+	"nx-user": {},
+	"exam-log": {},
+	"test-questions": {
+		"data": [{
+				"subject": "报纸",
+				"answer": "A"
+			}, {
+				"subject": "易拉罐",
+				"answer": "A"
+			},
+			{
+				"subject": "书本",
+				"answer": "A"
+			},
+			{
+				"subject": "纸巾",
+				"answer": "A"
+			},
+			{
+				"subject": "纸盒子",
+				"answer": "A"
+			}, {
+				"subject": "塑料瓶",
+				"answer": "A"
+			},
+			{
+				"subject": "纸质吸管",
+				"answer": "A"
+			},
+			{
+				"subject": "铜",
+				"answer": "A"
+			},
+			{
+				"subject": "A4纸",
+				"answer": "A"
+			},
+			{
+				"subject": "啤酒瓶",
+				"answer": "A"
+			},
+			{
+				"subject": "作业本",
+				"answer": "A"
+			},
+			{
+				"subject": "玻璃",
+				"answer": "A"
+			},
+			{
+				"subject": "铝",
+				"answer": "A"
+			},
+			{
+				"subject": "废铁",
+				"answer": "A"
+			}
+		]
+	}
+}
